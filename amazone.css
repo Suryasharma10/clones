@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+.nav-address{
+    margin-right: 5px;
+    width: 82.64px;
+    height: 50px;
+}
+.logo{
+    background-image: url(Amazon-Logo-Font-1-scaled.webp);
+    background-size: cover;
+    height: 50PX;
+    width: 100px;
+    margin-right: 7px;
+}
+.border{
+    border: 2px solid transparent;
+    height: 50px;
+    width: 100px;
+}
+.border:hover{
+    border:2px solid white;
+    background-size: cover;
+}
+/* box2 */
+
+#s1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    display: flex;
+    align-self: center;
+    padding-top: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#s2{
+  height: 16px;
+  width: 52.64px;
+  margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+}
+/* box3 */
+.search{
+    display: flex;
+    align-items: center;
+    height: 37px;
+}
+.s3{
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    width: 45px;
+    height: 40px;
+    background-color: #e6e6e6;
+}
+#s5{
+    align-self: center;
+    width: 346px;
+    height: 33px;
+}
+#s5:hover{
+    border: 3px solid orange;
+}
+.search-icon{
+    background-color: rgb(226, 181, 66);
+    width: 45px;
+    height: 39px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    color: #0f1111;
+}
+/* bo4 */
+.country{
+    display: flex;
+    align-items: center;
+    margin-left: 7px;
+}
+#c{
+    margin-left: 2px;
+    margin-right: 5px;
+}
+/* box5 */
+.signin{
+    font-size: 0.7rem;
+}
+.signin2{
+    font-size: 0.85rem;
+    font-weight: bold;
+
+}
+#go2{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+/* box6 */
+.return{
+    font-size: 0.7rem;
+}
+.signin3{
+    font-size: 0.85rem;
+    font-weight: bold;
+   display: flex;
+   align-items: center;
+}
+/* box7 */
+.navcart i{
+   font-size: 30px;
+}
+.navcart{
+    font-weight: bold;
+}
+/* navbar2 */
+.pannel{
+    background-color: #232f3e;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all i{
+    font-size: 20px;
+    color: white;
+}
+.all {
+    font-size: 20px;
+    color: white;
+    padding: 8px 9px;
+}
+a{
+    padding: 8px 9px;
+    margin: 5px 0px 6px;
+    color: white;
+    text-decoration: none;
+}
+.pannel-ops{
+    width: 70%;
+    margin-left: 20px;
+}
+.shop1{
+    align-self:end;
+    color: white;
+    margin: 6px 1px 7px 2px;
+    padding: 5px 8px 6px;
+}
+/* content */
+#backimage{
+    background-image: url(backimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mess{
+     background-color: white;
+     color: black;
+     height: 40px;
+     font-size: 0.85rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width:1600px;
+     margin-bottom: 30px;
+
+}
+.mess a{
+    color: #007185;
+}
+/* shop section */
+.shop{
+    background-color: #e2e7e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.shop a{
+    color:#007185;
+}
+.box{
+    
+    height: 370px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 13px;
+}
+.box-img{
+    background-image: url(game.jpg);
+    background-size:cover ;
+    height: 303px;
+    margin: 8px;
+}
+.shop-2{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.box-img2{
+    background-image: url(home\ decore.jpg);
+    background-size:cover ;
+    height: 303px;
+    margin: 8px;
+}
+.box-img3{
+    background-image: url(toys.jpg);
+    background-size:cover ;
+    height: 303px;
+    margin: 8px;
+}
+.box-img4{
+    background-image: url(photo\ frame.jpg);
+    background-size:cover;
+    height: 303px;
+    margin: 8px;
+}
+/* shop-section 2 */
+.shop4{
+    background-color: #e2e7e6;
+    height: 300px;
+    padding: 15px;
+}
+.shopsec{
+    background-color: white;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.d1img{
+     background-image: url(home1.jpg);
+     background-size: cover;
+     width: 156px;
+     height: 200px;
+}
+.d2img{
+    background-image: url(home2.jpg);
+    background-size: cover;
+    width: 156px;
+    height: 200px;
+}
+.d3img{
+    background-image: url(home3.jpg);
+    background-size: cover;
+    width: 156px;
+    height: 200px;
+}
+.d4img{
+    background-image: url(home4.jpg);
+    background-size: cover;
+    width: 156px;
+    height: 200px;
+}
+.d5img{
+    background-image: url(home5.jpg);
+    background-size: cover;
+    width: 156px;
+    height: 200px;
+}
+.d6img{
+    background-image: url(home6.jpg);
+    background-size: cover;
+    width: 156px;
+    height: 200px;
+}
+.shopx{
+    height: 290.5px;
+    background-color:#e2e7e6;
+    padding: 20px;
+}
+.img33{
+    background-image: url(sells.png);
+    background-size: cover;
+    height: 280px;
+
+}
+/* footer */
+.foot1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2{
+    height: 280px;
+    background-color:#232f3e; 
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    padding: 1px;
+}
+.foot3{
+    background-color: #232f3e;
+    height: 100px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo77{
+     background-image: url(aaaa.webp);
+     background-size: cover;
+    height: 50px;
+    width: 200px;
+}
+.aa1{
+    background-color: #232f3e;
+    font-size: 1rem;
+    color: rgb(223, 212, 212);
+    border: 1.2px solid gray;
+    margin-right: 3px;
+    padding: 0.5rem;
+}
+.foot4{
+    background-color:  #18222f;
+    color: white;
+    height: 80px;
+    text-align: center;
+    
+}
+.foot5 {
+    font-size: 0.8rem;
+   padding-top: 25px;
+}
+.foot6{
+    font-size: 0.8rem;
+}
